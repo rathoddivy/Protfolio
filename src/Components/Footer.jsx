@@ -5,22 +5,22 @@ export default function Footer() {
   const socialLinks = [
     {
       name: 'GitHub',
-      url: 'https://github.com',
+      url: 'https://github.com/rathoddivy',
       icon: <FaGithub className="w-5 h-5" />,
     },
     {
       name: 'LinkedIn',
-      url: 'https://linkedin.com',
+      url: 'https://www.linkedin.com/in/rathod-divyraj-9b3128252/',
       icon: <FaLinkedin className="w-5 h-5" />,
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com',
+      url: 'https://x.com/helloworld_x_1',
       icon: <FaTwitter className="w-5 h-5" />,
     },
     {
       name: 'Email',
-      url: 'mailto:your.email@example.com',
+      url: 'mailto:divayrajrathod69@gmail.com',
       icon: <FaEnvelope className="w-5 h-5" />,
     },
   ];
@@ -71,7 +71,7 @@ export default function Footer() {
         </div>
 
         {/* Divider */}
-        <div className="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+        <div className="border-t border-gray-700 mt-8 h-2 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
             Crafted with ❤️ and React
           </p>

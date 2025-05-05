@@ -1,4 +1,6 @@
 // src/constants/index.js
+import logo from '../assets/logo.png'
+
 
 export const navLinks = [
     {
@@ -36,13 +38,13 @@ export const navLinks = [
       title: "E-commerce Website",
       description: "A full-stack e-commerce platform with payment integration",
       tags: ["React", "Node.js", "MongoDB", "Stripe"],
-      image: "https://via.placeholder.com/400x200?text=E-commerce",
+      image: {logo},
       source: "https://github.com/username/ecommerce",
       demo: "https://ecommerce-demo.com"
     },
     {
       id: 2,
-      title: "Task Management App",
+      title: "INCO  The Collabration App",
       description: "A productivity app for managing daily tasks",
       tags: ["React", "Firebase", "Tailwind CSS"],
       image: "https://via.placeholder.com/400x200?text=Task+App",

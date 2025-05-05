@@ -1,4 +1,4 @@
-import { projects } from '../constants'
+import { projects } from '../constants/projects'
 import ProjectCard from '../Components/ProjectCard'
 
 export default function Projects() {

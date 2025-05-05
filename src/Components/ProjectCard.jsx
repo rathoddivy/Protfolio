@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion';
 import { FiGithub, FiExternalLink } from 'react-icons/fi';
+import logo from '../assets/logo.png'
+
 
 export default function ProjectCard({ project }) {
   return (
@@ -25,16 +27,19 @@ export default function ProjectCard({ project }) {
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
           <div className="flex space-x-3">
             <a
-              href={project.source}
+              href='https://github.com/rathoddivy/E-commerce-App-Using-ReactJS'
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center px-3 py-1.5 bg-white text-gray-800 rounded-full text-sm font-medium hover:bg-gray-100 transition-colors"
             >
               <FiGithub className="mr-1.5" /> Code
             </a>
+
+
+            
             {project.demo && (
               <a
-                href={project.demo}
+                href='https://github.com/rathoddivy/E-commerce-App-Using-ReactJS'
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center px-3 py-1.5 bg-indigo-600 text-white rounded-full text-sm font-medium hover:bg-indigo-700 transition-colors"
@@ -77,6 +82,8 @@ export default function ProjectCard({ project }) {
           >
             <FiGithub className="mr-1.5" /> Code
           </a>
+
+
           {project.demo && (
             <a
               href={project.demo}
@@ -92,3 +99,4 @@ export default function ProjectCard({ project }) {
     </motion.div>
   );
 }   
+
