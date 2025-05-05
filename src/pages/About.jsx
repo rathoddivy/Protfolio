@@ -25,7 +25,7 @@ export default function About() {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.6 }}
       viewport={{ once: true }}
-      className="py-12 px-4 sm:px-6 max-w-6xl mx-auto"
+      className="py-12 px-4 sm:px-6 max-w-6xl  m-10 mx-auto"
     >
       {/* Section Header */}
       <motion.div

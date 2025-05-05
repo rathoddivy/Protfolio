@@ -7,7 +7,7 @@ import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="https://github.com/rathoddivy/Protfolio">
+    <BrowserRouter basename="/Protfolio">
       <App />
     </BrowserRouter>
   </React.StrictMode>
